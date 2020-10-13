@@ -15,6 +15,8 @@ using namespace std;
 
 void odd_num() {
 	cout << "Problem 8" << endl;
+	cout << "Odd Numbers" << endl;
+	cout << endl;
 
 	int number;
 	cout << "Enter an integer: " << endl;

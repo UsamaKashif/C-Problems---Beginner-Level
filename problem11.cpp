@@ -11,15 +11,20 @@ using namespace std;
 /// </summary>
 
 
-void calculator() {
+void pyramid() {
 	cout << "Problem 11" << endl;
+	cout << "Pyramid" << endl;
+	cout << endl;
+
 	int number;
 	cout << "Enter a number: " << endl;
 	cin >> number;
 	
-	for (int i = number; i > 0; i--) {
-		cout << setw(i);
-		cout << "****" << endl;
+	for (int i = 0; i < number; i++) {
+		for (int j = 0; j <= i; j++) {
+			cout << "*";
+		}
+		cout << endl;
 	}
 
 }

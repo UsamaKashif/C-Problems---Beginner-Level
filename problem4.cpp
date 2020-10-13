@@ -12,6 +12,9 @@ void division() {
 	cout << "Problem 4" << endl;
 	cout << "" << endl;
 
+	cout << "Dividing 2 numbers" << endl;
+	cout << endl;
+
 	int num1, num2;
 	cout << "Enter 2 integers: " << endl;
 	cin >> num1 >> num2;

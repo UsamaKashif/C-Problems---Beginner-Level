@@ -14,6 +14,8 @@ using namespace std;
 
 void multiplicationTable() {
 	cout << "Problem 9" << endl;
+	cout << "Multiplication Table" << endl;
+	cout << endl;
 
 	int multi_table, iteration;
 

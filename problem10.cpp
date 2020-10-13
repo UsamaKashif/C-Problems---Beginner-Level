@@ -14,6 +14,8 @@ using namespace std;
 
 void calculator() {
 	cout << "Problem 10" << endl;
+	cout << "Basic Calculator" << endl;
+	cout << endl;
 
 	int num1, num2, arithmetic_operation;
 	cout << "Enter 2 numbers: " << endl;

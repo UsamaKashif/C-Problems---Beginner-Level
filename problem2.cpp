@@ -11,6 +11,8 @@ using namespace std;
 
 void greetings() {
 	cout << "PROBLEM 2" << endl;
+	cout << "Greets a user with name" << endl;
+	cout << endl;
 
 	string name;
 	cout << "Enter your name: " << endl;

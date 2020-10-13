@@ -5,20 +5,37 @@ using namespace std;
 
 /// <summary>
 /// PROBLEM 3
-/// input 3 integers from user
+/// input 3 unique integers from user
 /// print largest number 
 /// print smallest number
 /// </summary>
 
 void largest_smallest() {
 	cout << "PROBLEM 3" << endl;
+	cout << "Prints largest and smallest numbers from a set of 3 number" << endl;
+	cout << endl;
 
 	int num1, num2, num3;
 	int largest = 0;
 	int smallest = 0;
 
-	cout << "Enter three integers: " << endl;
+	cout << "Enter three unique integers: " << endl;
 	cin >> num1 >> num2 >> num3;
+
+	bool unique;
+
+	if (num1 == num2 == num3) {
+		unique = false;
+	}
+	else {
+		unique = true;
+	};
+	while (unique == false) {
+		cin >> num1 >> num2 >> num3;
+		if (num1 == num2 == num3) {
+			unique = true;
+		}
+	}
 
 	// finding the largest
 	if (num1 > num2 && num1 > num3) {

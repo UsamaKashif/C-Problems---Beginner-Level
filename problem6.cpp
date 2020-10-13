@@ -11,6 +11,8 @@ using namespace std;
 
 void area_triangle() {
 	cout << "Problem 6" << endl;
+	cout << "Area of triangle" << endl;
+	cout << endl;
 
 	int base, height;
 	cout << "Enter base of the triangle: " << endl;
@@ -19,7 +21,7 @@ void area_triangle() {
 	cout << "Enter height of the triangle: " << endl;
 	cin >> height;
 
-	float area = 0.5 * base * height;
+	float area = 0.5 * (float)base * (float)height;
 
 	cout << "Area of triangle is: " << area << endl;
 }

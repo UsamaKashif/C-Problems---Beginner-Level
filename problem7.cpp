@@ -15,6 +15,8 @@ using namespace std;
 
 void even_num() {
 	cout << "Problem 7" << endl;
+	cout << "Even Numbers" << endl;
+	cout << endl;
 
 	int number;
 	cout << "Enter an integer: " << endl;

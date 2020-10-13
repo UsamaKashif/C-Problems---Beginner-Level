@@ -7,7 +7,7 @@
 using namespace std;
 
 int main() {
-	/*
+	
 	// problem 1
 	hello_world();
 
@@ -68,7 +68,26 @@ int main() {
 
 	cout << "" << endl;
 	cout << "" << endl;
-	*/
 
+	//problem 11
+	pyramid();
+
+	cout << endl;
+	cout << endl;
+
+	// problem 12
+	coffeeCups();
+	
+	cout << endl;
+	cout << endl;
+
+	// problem 13
+	factorial();
+
+	cout << endl;
+	cout << endl;
+
+	// problem 14
+	grades();
 
 };

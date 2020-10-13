@@ -9,5 +9,9 @@ using namespace std;
 /// </summary>
 void hello_world() {
 	cout << "PROBLEM 1" << endl;
+	cout << "Prints hello world" << endl;
+
+	cout << endl;
+
 	cout << "Hello World" << endl;
 }
